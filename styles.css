@@ -1,0 +1,13 @@
+#image-container {
+    position: relative;
+}
+
+#moving-image {
+    position: absolute;
+    transition: left 0.5s, top 0.5s; /* Smooth transition effect */
+}
+
+.hovered {
+    left: 50px; /* Change the position when hovered */
+    top: 50px;
+}
